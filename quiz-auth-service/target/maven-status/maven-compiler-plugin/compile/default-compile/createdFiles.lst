@@ -1,0 +1,8 @@
+com\myorg\quizauthservice\dto\LoginResponse.class
+com\myorg\quizauthservice\QuizAuthServiceApplication.class
+com\myorg\quizauthservice\service\impl\UserServiceImpl.class
+com\myorg\quizauthservice\controller\LoginController.class
+com\myorg\quizauthservice\entity\Role.class
+com\myorg\quizauthservice\repository\UserRepository.class
+com\myorg\quizauthservice\service\UserService.class
+com\myorg\quizauthservice\entity\User.class
