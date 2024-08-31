@@ -1,0 +1,279 @@
+[
+  {
+    "name": "What is the capital of France?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Berlin", "correctAnswer": false},
+      {"choiceText": "Madrid", "correctAnswer": false},
+      {"choiceText": "Paris", "correctAnswer": true},
+      {"choiceText": "Rome", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Who wrote the play 'Romeo and Juliet'?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Charles Dickens", "correctAnswer": false},
+      {"choiceText": "William Shakespeare", "correctAnswer": true},
+      {"choiceText": "Mark Twain", "correctAnswer": false},
+      {"choiceText": "Jane Austen", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "What is the chemical symbol for water?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "CO₂", "correctAnswer": false},
+      {"choiceText": "H₂O", "correctAnswer": true},
+      {"choiceText": "O₂", "correctAnswer": false},
+      {"choiceText": "NaCl", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Who painted the Mona Lisa?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Vincent van Gogh", "correctAnswer": false},
+      {"choiceText": "Pablo Picasso", "correctAnswer": false},
+      {"choiceText": "Leonardo da Vinci", "correctAnswer": true},
+      {"choiceText": "Claude Monet", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "What is the largest planet in our solar system?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Earth", "correctAnswer": false},
+      {"choiceText": "Mars", "correctAnswer": false},
+      {"choiceText": "Jupiter", "correctAnswer": true},
+      {"choiceText": "Saturn", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "What is the smallest prime number?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "1", "correctAnswer": false},
+      {"choiceText": "2", "correctAnswer": true},
+      {"choiceText": "3", "correctAnswer": false},
+      {"choiceText": "5", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "In which year did the Titanic sink?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "1905", "correctAnswer": false},
+      {"choiceText": "1912", "correctAnswer": true},
+      {"choiceText": "1920", "correctAnswer": false},
+      {"choiceText": "1930", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "What is the hardest natural substance on Earth?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Gold", "correctAnswer": false},
+      {"choiceText": "Iron", "correctAnswer": false},
+      {"choiceText": "Diamond", "correctAnswer": true},
+      {"choiceText": "Platinum", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Who is known as the 'Father of Computers'?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Alan Turing", "correctAnswer": false},
+      {"choiceText": "Bill Gates", "correctAnswer": false},
+      {"choiceText": "Steve Jobs", "correctAnswer": false},
+      {"choiceText": "Charles Babbage", "correctAnswer": true}
+    ]
+  },
+  {
+    "name": "What is the main ingredient in guacamole?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Tomato", "correctAnswer": false},
+      {"choiceText": "Avocado", "correctAnswer": true},
+      {"choiceText": "Onion", "correctAnswer": false},
+      {"choiceText": "Pepper", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Which element has the atomic number 1?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Helium", "correctAnswer": false},
+      {"choiceText": "Oxygen", "correctAnswer": false},
+      {"choiceText": "Hydrogen", "correctAnswer": true},
+      {"choiceText": "Carbon", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "What is the longest river in the world?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Amazon", "correctAnswer": false},
+      {"choiceText": "Nile", "correctAnswer": true},
+      {"choiceText": "Yangtze", "correctAnswer": false},
+      {"choiceText": "Mississippi", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Who discovered penicillin?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Marie Curie", "correctAnswer": false},
+      {"choiceText": "Isaac Newton", "correctAnswer": false},
+      {"choiceText": "Alexander Fleming", "correctAnswer": true},
+      {"choiceText": "Louis Pasteur", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "What is the capital of Japan?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Beijing", "correctAnswer": false},
+      {"choiceText": "Seoul", "correctAnswer": false},
+      {"choiceText": "Tokyo", "correctAnswer": true},
+      {"choiceText": "Bangkok", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Which planet is known as the Red Planet?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Venus", "correctAnswer": false},
+      {"choiceText": "Mars", "correctAnswer": true},
+      {"choiceText": "Jupiter", "correctAnswer": false},
+      {"choiceText": "Saturn", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "What is the largest mammal in the world?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Elephant", "correctAnswer": false},
+      {"choiceText": "Blue whale", "correctAnswer": true},
+      {"choiceText": "Giraffe", "correctAnswer": false},
+      {"choiceText": "Hippopotamus", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Who wrote the novel '1984'?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Aldous Huxley", "correctAnswer": false},
+      {"choiceText": "George Orwell", "correctAnswer": true},
+      {"choiceText": "J.K. Rowling", "correctAnswer": false},
+      {"choiceText": "Ernest Hemingway", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "What is the square root of 64?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "6", "correctAnswer": false},
+      {"choiceText": "7", "correctAnswer": false},
+      {"choiceText": "8", "correctAnswer": true},
+      {"choiceText": "9", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Which country is known as the Land of the Rising Sun?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "China", "correctAnswer": false},
+      {"choiceText": "Japan", "correctAnswer": true},
+      {"choiceText": "South Korea", "correctAnswer": false},
+      {"choiceText": "Thailand", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "What is the currency of the United Kingdom?",
+    "type": "SINGLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Euro", "correctAnswer": false},
+      {"choiceText": "Dollar", "correctAnswer": false},
+      {"choiceText": "Pound sterling", "correctAnswer": true},
+      {"choiceText": "Yen", "correctAnswer": false}
+    ]
+  },
+
+  {
+    "name": "Which of the following are programming languages?",
+    "type": "MULTIPLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Python", "correctAnswer": true},
+      {"choiceText": "HTML", "correctAnswer": false},
+      {"choiceText": "Java", "correctAnswer": true},
+      {"choiceText": "CSS", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Which of the following are planets in our solar system?",
+    "type": "MULTIPLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Mars", "correctAnswer": true},
+      {"choiceText": "Pluto", "correctAnswer": true},
+      {"choiceText": "Venus", "correctAnswer": true},
+      {"choiceText": "Titan", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Which of the following are prime numbers?",
+    "type": "MULTIPLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "2", "correctAnswer": true},
+      {"choiceText": "4", "correctAnswer": false},
+      {"choiceText": "5", "correctAnswer": true},
+      {"choiceText": "9", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Which of the following are fruits?",
+    "type": "MULTIPLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Apple", "correctAnswer": true},
+      {"choiceText": "Carrot", "correctAnswer": false},
+      {"choiceText": "Banana", "correctAnswer": true},
+      {"choiceText": "Potato", "correctAnswer": false}
+    ]
+  },
+  {
+    "name": "Which of the following are elements on the periodic table?",
+    "type": "MULTIPLE_CHOICE",
+    "active": true,
+    "choices": [
+      {"choiceText": "Hydrogen", "correctAnswer": true},
+      {"choiceText": "Water", "correctAnswer": false},
+      {"choiceText": "Oxygen", "correctAnswer": true},
+      {"choiceText": "Salt", "correctAnswer": false}
+    ]
+  }
+
+]
