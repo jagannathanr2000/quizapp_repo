@@ -1,0 +1,174 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Quiz Application ",
+    "dateExported": "2024-09-06T12:56:28.485Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4e5ce0e0-c46a-4653-a29e-6e0bff3b3a1b",
+            "colId": "2ae91007-e3ba-4770-886a-1f46f8ca4556",
+            "containerId": "",
+            "name": "Get All Quizzes",
+            "url": "http://localhost:8080/api/v1/quizzes",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-11T10:43:37.992Z",
+            "modified": "2024-08-12T09:27:18.595Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4a02f551-f55b-4428-9d48-480f3322c9a0",
+            "colId": "2ae91007-e3ba-4770-886a-1f46f8ca4556",
+            "containerId": "",
+            "name": "Save New Question",
+            "url": "http://localhost:8080/api/v1/quizzes",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-11T10:44:48.227Z",
+            "modified": "2024-08-13T17:12:26.789Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"What is the capital of India?\",\n  \"type\":\"SINGLE_CHOICE\",\n  \"active\": true,\n  \"choices\":[\n    {\n      \"choiceText\":\"Pune\",\n      \"correctAnswer\": true\n    },\n    {\n      \"choiceText\":\"Chandigar\",\n      \"correctAnswer\": false\n    },\n    {\n      \"choiceText\":\"Pune\",\n      \"correctAnswer\": false\n    },\n    {\n      \"choiceText\":\"New Delhi\",\n      \"correctAnswer\": true\n    }\n    ]\n  \n  }\n  \n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fbf4b020-cce8-4e1d-bede-4e17259281a1",
+            "colId": "2ae91007-e3ba-4770-886a-1f46f8ca4556",
+            "containerId": "",
+            "name": "Register new user",
+            "url": "http://localhost:8090/api/v1/auth/register",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2024-08-23T08:53:04.295Z",
+            "modified": "2024-08-25T14:21:14.301Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userName\":\"Antony\",\n  \"password\": \"antony123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6a08cd6e-96c9-4207-9523-6e1d236c89bf",
+            "colId": "2ae91007-e3ba-4770-886a-1f46f8ca4556",
+            "containerId": "",
+            "name": "Login as user",
+            "url": "http://localhost:8090/api/v1/auth/login",
+            "method": "POST",
+            "sortNum": 27500,
+            "created": "2024-08-25T14:18:31.160Z",
+            "modified": "2024-08-26T10:27:10.305Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userName\":\"Antony\",\n  \"password\": \"antony123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6b5cb1f2-24bc-42a6-9289-fd3b89253a7c",
+            "colId": "2ae91007-e3ba-4770-886a-1f46f8ca4556",
+            "containerId": "",
+            "name": "Get Single Question",
+            "url": "http://localhost:8080/api/v1/quizzes/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-08-12T12:14:37.466Z",
+            "modified": "2024-08-14T10:15:00.950Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e13dd896-cc3c-4e7e-9c9f-228806b1e04c",
+            "colId": "2ae91007-e3ba-4770-886a-1f46f8ca4556",
+            "containerId": "",
+            "name": "Get Random Number Of Questions",
+            "url": "http://localhost:8080/api/v1/quizzes/random/3",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-08-12T12:22:54.429Z",
+            "modified": "2024-08-12T12:23:58.323Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "189e7466-0967-4ee4-a8ff-c78869eb8077",
+            "colId": "2ae91007-e3ba-4770-886a-1f46f8ca4556",
+            "containerId": "",
+            "name": "Delete Question",
+            "url": "http://localhost:8080/api/v1/quizzes/2",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-08-12T12:40:57.973Z",
+            "modified": "2024-08-12T12:41:26.839Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "99165bd4-616c-4d12-b80e-76c9bcad15b2",
+            "colId": "2ae91007-e3ba-4770-886a-1f46f8ca4556",
+            "containerId": "",
+            "name": "Udpate Question",
+            "url": "http://localhost:8080/api/v1/quizzes",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-08-12T15:21:15.657Z",
+            "modified": "2024-08-12T15:32:31.722Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"questionId\":3,\n  \"name\":\"What is the capital of India?\",\n  \"type\":\"SINGLE_CHOICE\",\n  \"active\": true,\n  \"choices\":[\n    {\n      \"choiceText\":\"Pune\",\n      \"correctAnswer\": false\n    },\n    {\n      \"choiceText\":\"Chandigar\",\n      \"correctAnswer\": false\n    },\n    {\n      \"choiceText\":\"New Delhi\",\n      \"correctAnswer\": true\n    }\n    ]\n  \n  }\n  \n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "309beb3c-2515-4e68-9213-d779345e60e4",
+            "colId": "2ae91007-e3ba-4770-886a-1f46f8ca4556",
+            "containerId": "",
+            "name": "Bulk Save Data",
+            "url": "http://localhost:8080/api/v1/quizzes/bulksave",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-08-13T17:29:55.465Z",
+            "modified": "2024-08-13T17:30:53.620Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[\r\n  {\r\n    \"name\": \"What is the capital of France?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Berlin\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Madrid\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Paris\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Rome\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Who wrote the play 'Romeo and Juliet'?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Charles Dickens\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"William Shakespeare\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Mark Twain\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Jane Austen\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"What is the chemical symbol for water?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"CO₂\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"H₂O\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"O₂\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"NaCl\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Who painted the Mona Lisa?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Vincent van Gogh\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Pablo Picasso\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Leonardo da Vinci\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Claude Monet\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"What is the largest planet in our solar system?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Earth\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Mars\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Jupiter\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Saturn\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"What is the smallest prime number?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"1\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"2\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"3\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"5\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"In which year did the Titanic sink?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"1905\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"1912\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"1920\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"1930\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"What is the hardest natural substance on Earth?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Gold\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Iron\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Diamond\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Platinum\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Who is known as the 'Father of Computers'?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Alan Turing\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Bill Gates\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Steve Jobs\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Charles Babbage\", \"correctAnswer\": true}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"What is the main ingredient in guacamole?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Tomato\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Avocado\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Onion\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Pepper\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Which element has the atomic number 1?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Helium\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Oxygen\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Hydrogen\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Carbon\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"What is the longest river in the world?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Amazon\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Nile\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Yangtze\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Mississippi\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Who discovered penicillin?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Marie Curie\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Isaac Newton\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Alexander Fleming\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Louis Pasteur\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"What is the capital of Japan?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Beijing\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Seoul\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Tokyo\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Bangkok\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Which planet is known as the Red Planet?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Venus\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Mars\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Jupiter\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Saturn\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"What is the largest mammal in the world?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Elephant\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Blue whale\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Giraffe\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Hippopotamus\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Who wrote the novel '1984'?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Aldous Huxley\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"George Orwell\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"J.K. Rowling\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Ernest Hemingway\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"What is the square root of 64?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"6\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"7\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"8\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"9\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Which country is known as the Land of the Rising Sun?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"China\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Japan\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"South Korea\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Thailand\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"What is the currency of the United Kingdom?\",\r\n    \"type\": \"SINGLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Euro\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Dollar\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Pound sterling\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Yen\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n\r\n  {\r\n    \"name\": \"Which of the following are programming languages?\",\r\n    \"type\": \"MULTIPLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Python\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"HTML\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Java\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"CSS\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Which of the following are planets in our solar system?\",\r\n    \"type\": \"MULTIPLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Mars\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Pluto\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Venus\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Titan\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Which of the following are prime numbers?\",\r\n    \"type\": \"MULTIPLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"2\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"4\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"5\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"9\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Which of the following are fruits?\",\r\n    \"type\": \"MULTIPLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Apple\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Carrot\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Banana\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Potato\", \"correctAnswer\": false}\r\n    ]\r\n  },\r\n  {\r\n    \"name\": \"Which of the following are elements on the periodic table?\",\r\n    \"type\": \"MULTIPLE_CHOICE\",\r\n    \"active\": true,\r\n    \"choices\": [\r\n      {\"choiceText\": \"Hydrogen\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Water\", \"correctAnswer\": false},\r\n      {\"choiceText\": \"Oxygen\", \"correctAnswer\": true},\r\n      {\"choiceText\": \"Salt\", \"correctAnswer\": false}\r\n    ]\r\n  }\r\n\r\n]\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cbe4278c-87f6-430f-acfb-6e7fead70f45",
+            "colId": "2ae91007-e3ba-4770-886a-1f46f8ca4556",
+            "containerId": "",
+            "name": "Get Quiz Settings",
+            "url": "http://localhost:8080/api/v1/quizzes/settings",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-08-22T05:33:39.050Z",
+            "modified": "2024-08-22T05:33:48.647Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
